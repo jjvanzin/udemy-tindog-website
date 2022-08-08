@@ -177,6 +177,34 @@ p {
 
 /* Media Query*/
 
+
+@media screen and (max-width: 768px) {
+   
+    #title {
+        text-align: center;
+    } 
+    
+    .big-heading {
+        font-size: 2rem;
+    }
+    
+    .section-heading {
+        font: 2rem;
+    }
+
+    .title-image {
+    display: none;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .price-text {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 1028px) {
 
     #title {
